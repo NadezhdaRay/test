@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong, readonly) NSString *moreImportantProperty;
+
+// +(void)hello;
 
 @end
 

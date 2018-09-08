@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3805F58E2131A14F00F8174F /* DialogListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3805F58C2131A14F00F8174F /* DialogListViewController.m */; };
+		3805F58F2131A14F00F8174F /* DialogListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3805F58D2131A14F00F8174F /* DialogListViewController.xib */; };
+		3805F5952131A66500F8174F /* DialogListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3805F5932131A66500F8174F /* DialogListCell.m */; };
+		3805F5962131A66500F8174F /* DialogListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3805F5942131A66500F8174F /* DialogListCell.xib */; };
+		3805F5A22134664D00F8174F /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 3805F5A12134664D00F8174F /* Message.m */; };
+		3805F5A62134693B00F8174F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 3805F5A52134693B00F8174F /* People.m */; };
+		3805F5AA2134802600F8174F /* ShowMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3805F5A92134802600F8174F /* ShowMessageController.m */; };
 		381C64D4211256800041648F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C64D3211256800041648F /* AppDelegate.m */; };
 		381C64D7211256800041648F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C64D6211256800041648F /* ViewController.m */; };
 		381C64DA211256800041648F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381C64D8211256800041648F /* Main.storyboard */; };
@@ -15,6 +22,10 @@
 		381C64E2211256840041648F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C64E1211256840041648F /* main.m */; };
 		381C64EC211256860041648F /* TestPupsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C64EB211256860041648F /* TestPupsTests.m */; };
 		381C64F7211256860041648F /* TestPupsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C64F6211256860041648F /* TestPupsUITests.m */; };
+		38B7BC11212B48F600C44250 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BC10212B48F600C44250 /* Printer.m */; };
+		38B7BC15212B5A0600C44250 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BC14212B5A0600C44250 /* Scanner.m */; };
+		38B7BC19212B5B0200C44250 /* MFU.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BC18212B5B0200C44250 /* MFU.m */; };
+		38B7BC1D212C943600C44250 /* NSString+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BC1C212C943600C44250 /* NSString+Additional.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3805F58B2131A14F00F8174F /* DialogListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialogListViewController.h; sourceTree = "<group>"; };
+		3805F58C2131A14F00F8174F /* DialogListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialogListViewController.m; sourceTree = "<group>"; };
+		3805F58D2131A14F00F8174F /* DialogListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogListViewController.xib; sourceTree = "<group>"; };
+		3805F5922131A66500F8174F /* DialogListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialogListCell.h; sourceTree = "<group>"; };
+		3805F5932131A66500F8174F /* DialogListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialogListCell.m; sourceTree = "<group>"; };
+		3805F5942131A66500F8174F /* DialogListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogListCell.xib; sourceTree = "<group>"; };
+		3805F5A02134664D00F8174F /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		3805F5A12134664D00F8174F /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		3805F5A42134693B00F8174F /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		3805F5A52134693B00F8174F /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		3805F5A82134802600F8174F /* ShowMessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowMessageController.h; sourceTree = "<group>"; };
+		3805F5A92134802600F8174F /* ShowMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowMessageController.m; sourceTree = "<group>"; };
 		381C64CF211256800041648F /* TestPups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381C64D2211256800041648F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		381C64D3211256800041648F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +74,14 @@
 		381C64F2211256860041648F /* TestPupsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPupsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381C64F6211256860041648F /* TestPupsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPupsUITests.m; sourceTree = "<group>"; };
 		381C64F8211256860041648F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B7BC0F212B48F600C44250 /* Printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		38B7BC10212B48F600C44250 /* Printer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		38B7BC13212B5A0600C44250 /* Scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		38B7BC14212B5A0600C44250 /* Scanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scanner.m; sourceTree = "<group>"; };
+		38B7BC17212B5B0200C44250 /* MFU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFU.h; sourceTree = "<group>"; };
+		38B7BC18212B5B0200C44250 /* MFU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFU.m; sourceTree = "<group>"; };
+		38B7BC1B212C943600C44250 /* NSString+Additional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Additional.h"; sourceTree = "<group>"; };
+		38B7BC1C212C943600C44250 /* NSString+Additional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additional.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +109,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3805F5892131A12900F8174F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5A721347FDC00F8174F /* ShowMessage */,
+				3805F58A2131A13100F8174F /* DialogList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3805F58A2131A13100F8174F /* DialogList */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5902131A63300F8174F /* View */,
+				3805F58B2131A14F00F8174F /* DialogListViewController.h */,
+				3805F58C2131A14F00F8174F /* DialogListViewController.m */,
+				3805F58D2131A14F00F8174F /* DialogListViewController.xib */,
+			);
+			path = DialogList;
+			sourceTree = "<group>";
+		};
+		3805F5902131A63300F8174F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5912131A63800F8174F /* DialogListCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3805F5912131A63800F8174F /* DialogListCell */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5922131A66500F8174F /* DialogListCell.h */,
+				3805F5932131A66500F8174F /* DialogListCell.m */,
+				3805F5942131A66500F8174F /* DialogListCell.xib */,
+			);
+			path = DialogListCell;
+			sourceTree = "<group>";
+		};
+		3805F59F213465F200F8174F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5A02134664D00F8174F /* Message.h */,
+				3805F5A12134664D00F8174F /* Message.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		3805F5A32134691E00F8174F /* People */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5A42134693B00F8174F /* People.h */,
+				3805F5A52134693B00F8174F /* People.m */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		3805F5A721347FDC00F8174F /* ShowMessage */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5A82134802600F8174F /* ShowMessageController.h */,
+				3805F5A92134802600F8174F /* ShowMessageController.m */,
+			);
+			path = ShowMessage;
+			sourceTree = "<group>";
+		};
 		381C64C6211256800041648F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +197,8 @@
 		381C64D1211256800041648F /* TestPups */ = {
 			isa = PBXGroup;
 			children = (
+				3805F5892131A12900F8174F /* Controllers */,
+				38B7BC0D212B481B00C44250 /* Models */,
 				381C64D2211256800041648F /* AppDelegate.h */,
 				381C64D3211256800041648F /* AppDelegate.m */,
 				381C64D5211256800041648F /* ViewController.h */,
@@ -130,6 +228,55 @@
 				381C64F8211256860041648F /* Info.plist */,
 			);
 			path = TestPupsUITests;
+			sourceTree = "<group>";
+		};
+		38B7BC0D212B481B00C44250 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3805F5A32134691E00F8174F /* People */,
+				3805F59F213465F200F8174F /* Message */,
+				38B7BC1A212C939900C44250 /* NSString+Additional */,
+				38B7BC16212B5AE200C44250 /* MFU */,
+				38B7BC12212B59EB00C44250 /* Scanner */,
+				38B7BC0E212B483200C44250 /* Printer */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38B7BC0E212B483200C44250 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BC0F212B48F600C44250 /* Printer.h */,
+				38B7BC10212B48F600C44250 /* Printer.m */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		38B7BC12212B59EB00C44250 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BC13212B5A0600C44250 /* Scanner.h */,
+				38B7BC14212B5A0600C44250 /* Scanner.m */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		38B7BC16212B5AE200C44250 /* MFU */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BC17212B5B0200C44250 /* MFU.h */,
+				38B7BC18212B5B0200C44250 /* MFU.m */,
+			);
+			path = MFU;
+			sourceTree = "<group>";
+		};
+		38B7BC1A212C939900C44250 /* NSString+Additional */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BC1B212C943600C44250 /* NSString+Additional.h */,
+				38B7BC1C212C943600C44250 /* NSString+Additional.m */,
+			);
+			path = "NSString+Additional";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +382,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3805F58F2131A14F00F8174F /* DialogListViewController.xib in Resources */,
 				381C64DF211256840041648F /* LaunchScreen.storyboard in Resources */,
 				381C64DC211256840041648F /* Assets.xcassets in Resources */,
 				381C64DA211256800041648F /* Main.storyboard in Resources */,
+				3805F5962131A66500F8174F /* DialogListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +411,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3805F58E2131A14F00F8174F /* DialogListViewController.m in Sources */,
+				38B7BC19212B5B0200C44250 /* MFU.m in Sources */,
+				38B7BC15212B5A0600C44250 /* Scanner.m in Sources */,
+				38B7BC1D212C943600C44250 /* NSString+Additional.m in Sources */,
+				38B7BC11212B48F600C44250 /* Printer.m in Sources */,
+				3805F5A62134693B00F8174F /* People.m in Sources */,
 				381C64D7211256800041648F /* ViewController.m in Sources */,
 				381C64E2211256840041648F /* main.m in Sources */,
+				3805F5AA2134802600F8174F /* ShowMessageController.m in Sources */,
+				3805F5A22134664D00F8174F /* Message.m in Sources */,
 				381C64D4211256800041648F /* AppDelegate.m in Sources */,
+				3805F5952131A66500F8174F /* DialogListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
